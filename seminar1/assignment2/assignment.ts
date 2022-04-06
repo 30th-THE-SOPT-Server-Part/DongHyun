@@ -34,8 +34,8 @@ const dinner: Dinner = {
         return array;
     },
     organize(array) {
-        let ob: Array<Member> = new Array<Member>();
-        let yb: Array<Member> = new Array<Member>();
+        let ob: Array<Member> = [];
+        let yb: Array<Member> = [];
         for (var value of this.member) {
             if (value.group === 'ob') {
                 ob.push(value);
