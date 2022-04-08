@@ -34,9 +34,10 @@ const dinner: Dinner = {
         return array;
     },
     organize(array) {
+        let shuffleDinnerMember: Member[]  = this.shuffle(array);
         let ob: Array<Member> = [];
         let yb: Array<Member> = [];
-        for (var value of this.member) {
+        for (var value of shuffleDinnerMember) {
             if (value.group === 'ob') {
                 ob.push(value);
             } 
