@@ -38,7 +38,7 @@ f1([1,2,3,]);
 //f1('h1');
 
 const div = (x: number, y: number): number => {
-    return x/y;
+    return x / y;
 }
 
 let p: null = null;
